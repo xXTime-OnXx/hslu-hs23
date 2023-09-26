@@ -4,9 +4,10 @@
 # Version: Sun Sep 10 18:13:26 CEST 2023
 
 def recursive_sum(n):
+  if n == 0:
+    return 0
   
-  # TODO: Implement here...
-  pass
+  return n + recursive_sum(n - 1)
   
   
 if __name__ == '__main__':  

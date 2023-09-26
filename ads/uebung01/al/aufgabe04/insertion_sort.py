@@ -13,8 +13,17 @@ def insertion_sort(data):
   
   p   List of comparable elements which will be sorted.
   """
-  
-  # TODO: Implement here...
+  unsorted_list = data.copy()
+  data.clear()
+  data.append(unsorted_list.pop(0))
+
+  for i, number in enumerate(unsorted_list):
+    for k, sorted_number in enumerate(data):
+      if number < sorted_number:
+        data.insert(k, number)
+        break;
+    if len(data) < i + 2:
+      data.append(number)
     
     
 def verify(orginalData, sortedData):
