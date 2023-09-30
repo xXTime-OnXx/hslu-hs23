@@ -37,9 +37,15 @@ class DequeImplementation:
     return e
     
   def remove_first(self): 
-  
-    # TODO: Implement here...
-    pass
+    if self.is_empty(): 
+      raise DequeEmptyException("Deque is empty!")
+    first = self._header.get_next()
+    e = first.get_element()
+    second = first.get_next()
+    self._header.set_next(second)
+    second.set_prev(self._header)
+    self._size -= 1
+    return e
   
     
   def insert_last(self, element):
