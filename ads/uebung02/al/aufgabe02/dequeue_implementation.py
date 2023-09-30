@@ -3,8 +3,8 @@
 # Path   : uebung02/al/aufgabe02
 # Version: Mon Sep 25 19:08:47 CEST 2023
 
-from uebung02.al.aufgabe02.node import Node
-from uebung02.al.aufgabe02.dequeue_empty_exception import DequeEmptyException
+from node import Node
+from dequeue_empty_exception import DequeEmptyException
 
 
 class DequeImplementation:
