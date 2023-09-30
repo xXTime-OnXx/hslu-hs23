@@ -46,37 +46,25 @@ class DequeImplementation:
     second.set_prev(self._header)
     self._size -= 1
     return e
-  
     
   def insert_last(self, element):
-  
-    # TODO: Implement here...
-    pass
-  
+    secondLast = self._trailer.get_prev()
+    last = Node(element, secondLast, self._trailer)
+    secondLast.set_next(last)
+    self._trailer.set_prev(last)
+    self._size += 1
     
   def first(self): 
-  
-    # TODO: Implement here...
-    pass
-  
+    return self._header
     
   def last(self): 
-  
-    # TODO: Implement here...
-    pass
-  
+    return self._trailer
     
   def size(self):
-  
-    # TODO: Implement here...
-    pass
-  
+    return self._size
     
   def is_empty(self):
-  
-    # TODO: Implement here...
-    pass
-  
+    return self.size() == 0
   
   def __str__(self):
     node = self._header.get_next()
