@@ -3,7 +3,7 @@
 # Path   : uebung02/al/aufgabe03
 # Version: Mon Sep 25 19:11:42 CEST 2023
 
-from uebung02.al.aufgabe03.empty_stack_exception import EmptyStackException
+from empty_stack_exception import EmptyStackException
 import sys
 
 
@@ -39,24 +39,29 @@ class StackImplementation:
     return self._size
   
   def size(self):
-    # TODO: Implement here...
-    pass
+    return self.__len__()
 
   def is_empty(self):
-    # TODO: Implement here...
-    return True
+    return self.size() == 0
   
   def top(self):
-    # TODO: Implement here...
-    return None
+    if self.is_empty():
+      raise EmptyStackException("Stack is empty!")
+    return self._top.get_element()
   
   def push(self, element):
-    # TODO: Implement here...
-    pass
+    top = self._Node(element)
+    top.append_node(self._top)
+    self._top = top
+    self._size += 1
     
   def pop(self):
-    # TODO: Implement here...
-    return None
+    if self.is_empty():
+      raise EmptyStackException("Stack is empty!")
+    top = self._top
+    self._top = top.get_next()
+    self._size -= 1
+    return top.get_element()
   
   def printout(self):
     print("Stack: (", self._to_string(self._top, ""), ")")
