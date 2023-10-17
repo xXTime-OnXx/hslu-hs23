@@ -30,4 +30,17 @@ var(winner)
 sd(winner)
 
 # h
-var_winner <- (winner - )
+winner.var <- sum((winner - mean(winner))^2) / (length(winner)-1)
+winner.sd <- sqrt(winner.var)
+
+# Aufgabe 2.2
+noten <- c(4.2, 2.3, 5.6, 4.5, 4.8, 3.9, 5.9, 2.4, 5.9, 6, 4, 3.7, 5, 5.2, 4.5, 3.6, 5, 6, 2.8, 3.3, 5.5, 4.2, 4.9, 5.1)
+
+# a
+noten_2 <- c(1,2.3,5.6,4.5,4.8,3.9,5.9, 2.4,5.9,6,4,3.7,5,5.2,1,3.6,5,6,
+             2.8,3.3,5.5,1,4.9,5.1)
+
+# b
+boxplot(noten, noten_2,
+        main = "Boxplot",
+        col = c("orange", "lightblue"))
