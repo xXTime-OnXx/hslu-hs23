@@ -44,3 +44,6 @@ fractions(1 - A*B)
 
 # d
 fractions(1-(A + B - A*B))
+
+# e
+fractions(A + B - 2*A*B)
