@@ -4,29 +4,34 @@
 # Version: Mon Oct 16 18:32:00 CEST 2023
 
 import enum
-from uebung05.al.aufgabe01.entry import Entry
+from entry import Entry
 
 
 class MapImpl:
   
   def __init__(self):  
-    self._list = []
+    self._list = list()
   
   def size(self):
-    # TODO: Implement here...
-    return None
+    return len(self._list)
   
   def is_empty(self):
-    # TODO: Implement here...
-    return None
+    return self.size() == 0
   
   def put(self, key, value):
-    # TODO: Implement here...
+    entry = self.get(key)
+    if entry:
+      old_value = entry.get_value()
+      entry.set_value(value)
+      return old_value
+    entry = Entry(key, value)
+    self._list.append(entry)
     return None
       
   def get(self, key):
-    # TODO: Implement here...
-    return None
+    entries = filter(lambda entry: entry.get_key() == key, self._list)
+    if len(entries) > 0:
+      return entries[0]
   
   def remove(self, key):
     # TODO: Implement here...
