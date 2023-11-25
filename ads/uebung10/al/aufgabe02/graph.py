@@ -45,20 +45,25 @@ class Graph:
     """
     self._validate_vertex(v)
     self._validate_edge(e)
+
+    edges = self.incident_edges(v)
+    if e not in edges:
+      raise ValueError("edge is not incident to vertex")
     
-    # TODO: Implement here ...
-    
-    return None
+    (vertice1, vertice2) = self.end_vertices(e)
+    return vertice1 if vertice2 == v else vertice2
     
   def are_adjacent(self, v, w):
     self._validate_vertex(v)
     self._validate_vertex(w)
     inc_v = self.incident_edges(v)
     inc_w = self.incident_edges(w)
-    
-    # TODO: Implement here ...
-    
-    return None
+
+    for edge_v in inc_v:
+      if edge_v in inc_w:
+        return True
+
+    return False
 
   def insert_vertex(self, element):
     v = self._graph.insert_vertex(element)
