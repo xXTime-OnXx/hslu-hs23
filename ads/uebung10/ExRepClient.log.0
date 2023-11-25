@@ -1,0 +1,104 @@
+ComPdCommandLinePars:INFO   :Logging to SysOut (console) enabled by command line argument
+ComPdCommandLinePars:INFO   :Logging to logfile enabled by command line argument
+ComPdCommandLinePars:INFO   :LogLevel set to FINER by command line argument
+CliPdUI             :INFO   :Timestamp: 20:13:16.195 - 24.11.2023
+CliPdUI             :INFO   :Starting ExRep-Client v3.2.0
+CliDmClientConfig   :INFO   :Loading client config from XML
+CliDmClientConfig   :FINER  :Loaded network data
+CliDmClientConfig   :FINER  :Loaded user data
+CliDmClientConfig   :FINER  :Loaded ranking data
+CliDmClientConfig   :FINER  :Loaded log module "client" with level "OFF"
+CliDmClientConfig   :FINER  :Loaded logging data
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+ComPdCommandLinePars:INFO   :Logging to SysOut (console) enabled by command line argument
+ComPdCommandLinePars:INFO   :Logging to logfile enabled by command line argument
+ComPdCommandLinePars:INFO   :LogLevel set to FINER by command line argument
+CliPdUI             :INFO   :Timestamp: 20:17:46.379 - 24.11.2023
+CliPdUI             :INFO   :Starting ExRep-Client v3.2.0
+CliDmClientConfig   :INFO   :Loading client config from XML
+CliDmClientConfig   :FINER  :Loaded network data
+CliDmClientConfig   :FINER  :Loaded user data
+CliDmClientConfig   :FINER  :Loaded ranking data
+CliDmClientConfig   :FINER  :Loaded log module "client" with level "OFF"
+CliDmClientConfig   :FINER  :Loaded logging data
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :Sorry, no port with a listening ExRep-Server found, giving up!
+CliPdUI             :WARNING:Could not login, to test connection and download exercises
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :Sorry, no port with a listening ExRep-Server found, giving up!
+CliPdUI             :WARNING:Could not login, to test connection and download exercises
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+ComPdCommandLinePars:INFO   :Logging to SysOut (console) enabled by command line argument
+ComPdCommandLinePars:INFO   :Logging to logfile enabled by command line argument
+ComPdCommandLinePars:INFO   :LogLevel set to FINER by command line argument
+CliPdUI             :INFO   :Timestamp: 20:20:12.73 - 24.11.2023
+CliPdUI             :INFO   :Starting ExRep-Client v3.2.0
+CliDmClientConfig   :INFO   :Loading client config from XML
+CliDmClientConfig   :FINER  :Loaded network data
+CliDmClientConfig   :FINER  :Loaded user data
+CliDmClientConfig   :FINER  :Loaded ranking data
+CliDmClientConfig   :FINER  :Loaded log module "client" with level "OFF"
+CliDmClientConfig   :FINER  :Loaded logging data
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :Sorry, no port with a listening ExRep-Server found, giving up!
+CliPdUI             :WARNING:Could not login, to test connection and download exercises
+CliDmClientConfig   :INFO   :XML client config file successfully saved
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :The connect attempt timed out
+CliNtServerConnectio:SEVERE :Sorry, no port with a listening ExRep-Server found, giving up!
+CliPdUI             :WARNING:Could not login, to test connection and download exercises
